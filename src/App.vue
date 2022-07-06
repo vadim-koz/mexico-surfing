@@ -20,9 +20,7 @@ export default {
     return {
       imageAlt: 'Surf Mexico',
       name: 'Hi, my name is Vadim',
-      Myclass: 'title',
       imageClass: 'imgSize',
-      Cifra: 9
     }
   }
 }
@@ -34,11 +32,15 @@ export default {
   <Header/>
   <img :alt="imageAlt" src="./assets/logo.png" :class="imageClass" id="Home">
   <div class="main-container" style="text-align:left">
-    <div> This is easy site about Surfing at Mexico Cabo California. Here you can get info about three main surf spots: 
-      The Rocks, Costa Azul and Zippers. You can check descriptions, locations and of course the link to the forecast. 
-     <br> Also as a bonus for a good begining of the day, you can find here information of 
-      a good Cafe where you will enjoy you breakfast and of course flavored invigorating coffee.   </div>
-    <div > <Img/> </div>
+    
+    <div>
+      <h2>Hi! My name is Vadim :)</h2>
+      This is an easy site about Surfing at Cabo, Baja California, Mexico. Here you can get info about three main surf spots: 
+      The Rocks, Costa Azul and Zippers. You can check descriptions, locations and of course the link to the forecast.
+      <br><br>
+      Also, as a bonus for a good beginning of the day, here you can find information about great Cafes where you can enjoy your breakfast and of course flavored invigorating coffee.
+     </div>
+    <div> <Img/> </div>
   </div>
   <!--<h1 :class="Myclass"> {{ name }} </h1> 
   <Img/>
