@@ -52,7 +52,7 @@ export default {
       </div>
       <div class="description-container">
         <p>{{ item.description }}</p>
-        <a :href="item.forecastUrl" target="_blank"> Surf Forecast</a>
+        <a :href="item.forecastUrl" target="_blank" style="color: #859527"> Surf Forecast</a>
       </div>
     </div>
   </div>

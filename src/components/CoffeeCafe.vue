@@ -88,7 +88,7 @@ data () {
         <img :src="getImgUrl(item.photosOverlay)"> -->
       <!-- <img :src="pictureHover(item.photos)" @mouseover="hover = true" @mouseleave="hover = false"> -->
       </div>
-      <a :href="item.mapUrl" target="_blank"> Cafe on the map</a>
+      <a :href="item.mapUrl" target="_blank" style="color: #859527"> Cafe on the map</a>
     </div>
   </div>
 </div> 
